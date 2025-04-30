@@ -255,8 +255,8 @@ permited=$(curl -sSL "$(ofus $keybot)/ChumoGH/VPSbot/main/TeleBotGen/Control/Con
  clear
   echo -e "\n\n\n\e[32m====================================================="
   echo -e "\e[32m  LA IP $(wget -qO- ipv4.icanhazip.com) ESTA AUTORIZADA!"
-  echo -e "   Mediante $link Autorida por @ChumoGH"
-  echo -e "      SI DESEAS USAR EL BOTGEN CONTACTE A @ChumoGH"
+  echo -e "   Mediante $link Autorida por @drowkid01"
+  echo -e "      SI DESEAS USAR EL BOTGEN CONTACTE A @drowkid01"
   echo -e "\e[32m=====================================================\n\n\n\e[0m"
   [[ -e /usr/bin/downBase ]] || echo 'https://www.dropbox.com/s/yqhjmr7o3342viv/lista' > /usr/bin/downBase && chmod 777 /usr/bin/downBase
   v1=$(curl -sSL "https://www.dropbox.com/s/blxo0jifysvyrey/v-new.log")

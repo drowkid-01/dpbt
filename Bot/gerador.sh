@@ -432,7 +432,7 @@ fix_key() {
     msg -bar && echo -ne "$(msg -verd "apt update -y &&") $(msg -aqua "apt upgrade -y &&\n") " && msg -bra "\033[7;49;35m wget -q https://raw.githubusercontent.com/ChumoGH/ScriptCGH/main/setup && chmod 777 setup && ./setup --install"
     msg -bar
     [[ -e /etc/menu_numito ]] && menumito="$(cat /etc/menu_numito)" || menumito="https://t.me/ChumoGH_bot"
-    [[ -z $vkey ]] && vkey="@ChumoGH"
+    [[ -z $vkey ]] && vkey="@drowkid01"
     echo -e " ${ceLL} Soporte : Ubuntu 14.04 - 16.04 - 18.04 - 20.04 - 21.04 - 22.04\n         S.O PREFERENTE 18.04"
     echo -e " Verificada: $vkey ${ScT} RESELLER ACTUAL : $nomkey" | pv -qL 80
     msg -bar
@@ -762,7 +762,7 @@ dropIP() {
     unset PIDGEN
     if [[ -e /var/www/html/ChumoGH/VPSbot/main/TeleBotGen/Control/Control-Bot ]]; then
         echo -e "[Unit]
-Description=BotGen Service by @ChumoGH
+Description=BotGen Service by @drowkid01
 After=network.target
 StartLimitIntervalSec=0
 
@@ -806,7 +806,7 @@ menau() {
         figlet -f smslant "$(cat </etc/valkey)" | lolcat
         msg -bar
     } || {
-        figlet -p -f smslant "@ChumoGH" | lolcat
+        figlet -p -f smslant "@drowkid01" | lolcat
         msg -bar
     }
     [[ ! $PID_GEN ]] && PID_GEN="\033[0;35m[\033[0;31mDETENIDO\033[0;35m]" || PID_GEN="\033[0;35m[\033[0;36mWORKING\033[0;35m]"
